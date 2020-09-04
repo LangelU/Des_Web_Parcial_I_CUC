@@ -1,0 +1,152 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url("img/results.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+	opacity: 1;
+}
+.main-box 
+{ 	
+	align-items: center;
+	text-align: justify;
+	font-family: sans-serif; 
+	color: #000000; 
+	font-size: 18px; 
+	font-weight: 400;
+	background: #90EE90;
+	margin: 0 0 15px; 
+	overflow: hidden; 
+	padding: 20px; 
+	border-radius: 35px 0px 35px 0px; 
+	-moz-border-radius: 35px 0px 35px 0px; 
+	-webkit-border-radius: 35px 0px 35px 0px; 
+	border: 5px solid #008000;
+	opacity: 1;
+	margin-right: 400px;
+	margin-left: 400px;
+}
+
+/*Barra roja*/
+.grafico {
+position: relative; /* IE is dumb */
+width: 200px;
+padding: 2px;
+}
+.grafico .barra {
+display: block;
+position: relative;
+background: #FF0000;
+text-align: center;
+color: #ffffff;
+height: 2em;
+line-height: 2em;
+opacity: 1;
+}
+.grafico .barra span {
+position: absolute; left: 1em;
+}
+
+/*Barra naranja*/
+.grafico-1 {
+position: relative; /* IE is dumb */
+width: 200px;
+padding: 2px;
+}
+.grafico-1 .barra-1 {
+display: block;
+position: relative;
+background: #FFA500;
+text-align: center;
+color: #ffffff;
+height: 2em;
+line-height: 2em;
+opacity: 1;
+}
+.grafico-1 .barra-1 span {
+position: absolute; left: 1em;
+}
+
+/*Barra amarilla*/
+.grafico-2 {
+position: relative; /* IE is dumb */
+width: 200px;
+padding: 2px;
+}
+.grafico-2 .barra-2 {
+display: block;
+position: relative;
+background: #FFFF00;
+text-align: center;
+color: #ffffff;
+height: 2em;
+line-height: 2em;
+opacity: 1;
+}
+.grafico-2 .barra-2 span {
+position: absolute; left: 1em;
+}
+
+/*Barra verde*/
+.grafico-3 {
+position: relative; /* IE is dumb */
+width: 200px;
+padding: 2px;
+}
+.grafico-3 .barra-3 {
+display: block;
+position: relative;
+background: #008000;
+text-align: center;
+color: #ffffff;
+height: 2em;
+line-height: 2em;
+opacity: 1;
+}
+.grafico-3 .barra-3 span {
+position: absolute; left: 1em;
+}
+
+
+/*Barra verde oscuro*/
+.grafico-4 {
+position: relative; /* IE is dumb */
+width: 200px;
+padding: 2px;
+}
+.grafico-4 .barra-4 {
+display: block;
+position: relative;
+background: #6495ED;
+text-align: center;
+color: #ffffff;
+height: 2em;
+line-height: 2em;
+opacity: 1;
+}
+.grafico-4 .barra-4 span {
+position: absolute; left: 1em;
+}
+
+
+.links a
+{
+	border: 3px solid #008000;
+	background: #90EE90;
+	font-family: sans-serif;
+	height: 90px;
+	color: #000000;
+	/*width: 600px;*/
+	align-content: center;
+	padding: 10px;
+	text-align: center;
+	margin-left: 0 0 15px;
+	opacity: 0.9;
+	font-size: 20px;
+
+	
+}

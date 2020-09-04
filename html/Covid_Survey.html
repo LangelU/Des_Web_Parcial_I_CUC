@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Encuesta Covid-19</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/style_survey.css">
+</head>
+<body>
+	<div class="title">
+		<h1 align="center">Encuesta Covid-19</h1>
+	</div>
+
+	<form>
+		<br>
+		<br>
+		<div class="main-box">
+			<h3>Pregunta 1</h3>
+			<p>
+				<label>Nombres: </label>
+				<input type="text" name="names" placeholder="Ingrese sus nombres" required="">
+			</p>
+
+			<p>
+				<label>Apellidos: </label>
+				<input type="text" name="last_name" placeholder="Ingrese sus apellidos" required="">
+			</p>
+		</div>
+
+		<div class="main-box">
+			<p>
+				<h3>Pregunta 2</h3>
+				<label>Porfavor registre su temperatura corporal</label>
+				<br>
+				<input type="radio" name="temp">Menos de 37°C
+				<br>
+				<input type="radio" name="temp">Entre 37°C y 38°C
+				<br>
+				<input type="radio" name="temp">Entre 38°C y 39°C
+				<br>
+				<input type="radio" name="temp">Más de 39°C
+			</p>
+		</div>
+
+		<div class="main-box">
+			<p>
+				<h3>Pregunta 3</h3>
+				<label>¿Vive con personas de la tercera edad o menores de 2 años?</label>
+				<br>
+				<input type="radio" name="risk">Si
+				<br>
+				<input type="radio" name="risk">No
+			</p>
+		</div>
+
+		<div class="main-box">
+			<p>
+				<h3>Pregunta 4</h3>
+				<label>Porfavor marque los síntomas que presente actualmente</label>
+				<br>
+				<input type="checkbox" name="symptoms">Tos
+				<br>
+				<input type="checkbox" name="symptoms">Dolor de cabeza
+				<br>
+				<input type="checkbox" name="symptoms">Dolor de garganta
+				<br>
+				<input type="checkbox" name="symptoms">Problemas al respirar
+				<br>
+				<input type="checkbox" name="symptoms">Ninguno
+			</p>
+		</div>
+
+		<div class="main-box">
+			<p>
+				<h3>Pregunta 5</h3>
+				<label>¿Ha tenido contacto con viajeros del exterior o nacionales?</label>
+				<br>
+				<input type="radio" name="contact">Si
+				<br>
+				<input type="radio" name="contact">No
+			</p>
+		</div>
+
+		<br>
+		<br>
+
+		<table align="center">
+			<tr>
+				<td>
+					<div class="links" align="left">
+						<a href="D:\Universidad\2020-2\Desarollo Web I\Actividades\Examen_I\Index\Index.html">Regresar al Inicio</a>
+					</div>
+				</td>
+
+				<td>
+					<div class="submit">
+						<input type="submit" name="save" value="Enviar">
+					</div>
+				</td>
+
+				<td>
+					<div class="links" align="right">
+						<a href="D:\Universidad\2020-2\Desarollo Web I\Actividades\Examen_I\Index\html\Survey_Results.html">	Consultar los resultados</a>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</form>
+	</body>
+</html>
